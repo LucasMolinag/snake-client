@@ -41,5 +41,7 @@ const connect = function () {
   return conn;
 };
 
-console.log("Connecting ...");
-connect();
+// console.log("Connecting ...");
+// connect();
+
+module.exports = connect;
