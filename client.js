@@ -12,7 +12,23 @@ const connect = function () {
 
   conn.on("connect", () => {
     conn.write("Name: LMG");
-  })
+
+  // setInterval(() => {  
+  //     conn.write("Move: up");
+  //   }, 2000);
+  });
+
+  // conn.on("connect", () => {
+  //   conn.write("Move: down");
+  // })
+
+  // conn.on("connect", () => {
+  //   conn.write("Move: left");
+  // })
+
+  // conn.on("connect", () => {
+  //   conn.write("Move: right");
+  // })
 
   conn.on("data", (data) => {
     console.log(data.toString())
