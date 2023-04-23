@@ -1,0 +1,23 @@
+{
+  "name": "snake-client",
+  "version": "1.0.0",
+  "description": "This is a creation of the client side of multiplayer version of the snake game made by me",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasMolinag/snake-client.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Lucas Molina",
+    "email": "molinag.lucas@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasMolinag/snake-client/issues"
+  },
+  "homepage": "https://github.com/LucasMolinag/snake-client#readme"
+}

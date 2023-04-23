@@ -1,7 +1,8 @@
 // setup interface to handle user input from stdin
 
-let connection;
+let connection; // create variable that will be used by the setupInput function
 
+// captures input from the player and decripts it into utf8 encoding to call on handleUserInput to execute an event for each input
 const setupInput = (conn) => {
   connection = conn;
   const stdin = process.stdin;
@@ -14,6 +15,7 @@ const setupInput = (conn) => {
   return stdin;
 };
 
+// handles inputs from the player (wasd movementm n, o, t special communication keys, and ctrl + C to quit the game)
 const handleUserInput = function (data) {
   if (data === '\u0003') {
     process.exit();
